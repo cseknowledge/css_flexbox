@@ -1,0 +1,38 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Candara";
+    font-size: 20px;
+}
+
+.container {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container h1 {
+    color: #fff;
+}
+
+.container .child {
+    padding: 15px;
+    flex-basis: 31%;
+    border-radius: 7px;
+}
+
+.container .child1 {
+    background-color: brown;
+    order: 3;
+}
+
+.container .child2 {
+    background-color: chocolate;
+}
+
+.container .child3 {
+    background-color: coral;
+}
